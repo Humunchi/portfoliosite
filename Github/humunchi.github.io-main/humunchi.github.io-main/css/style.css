@@ -1,0 +1,132 @@
+/*Colours #192961 #9DA8FB #F88CAC #F9C94D*/
+
+body {
+    background-color: transparent;
+    background-image: linear-gradient( #192961, #9DA8FB, #F88CAC, #F9C94D);
+    font-family: sans-serif;
+    font: 1.2em "Verdana";
+}
+
+
+/*
+---------------------------------------------
+about
+---------------------------------------------
+*/
+
+#about {
+    padding: 100px 0px;
+    position: relative;
+    z-index: 9;
+}
+
+@media (max-width: 992px) {
+    .features-item {
+        margin-bottom: 45px;
+    }
+}
+
+.features-item {
+    border-radius: 5px;
+    padding: 60px 30px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(84, 245, 10, 0.1);
+}
+
+.features-item h2 {
+    z-index: 9;
+    position: absolute;
+    top: 15px;
+    left: 45px;
+    font-size: 100px;
+    font-weight: 600;
+    color: #fdefe9;
+}
+
+.features-item img {
+    z-index: 10;
+    position: relative;
+    max-width: 100%;
+    margin-bottom: 40px;
+}
+
+.features-item h4 {
+    margin-top: 0px;
+    font-size: 22px;
+    color: #1e1e1e;
+    margin-bottom: 25px;
+}
+
+.features-item .main-button {
+    margin-top: 35px;
+    display: inline-block;
+}
+
+
+}
+.Email {
+    list-style-type: none;
+    margin: 15;
+    padding: 2;
+    font-family: sans-serif;
+    font: 1.2em "Verdana";
+}
+ul {
+    position: absolute;
+    position: fixed;
+    width: 20%;
+    height: 70px;
+    z-index: 1;
+    border: solid 3px white;
+    background-color: white;
+    list-style-type: none;
+    margin: 15;
+    padding: 2;
+    display: inline;
+}
+.parallax {
+    justify-content: centre;
+    width: 100%;
+    height: 100%;
+    margin: 15;
+    padding: 2;
+    background-color: transparent;
+    /* The image used */
+    
+    background-image: url("http://www.pngmart.com/files/6/Snake-PNG-Transparent.png");
+    /* Set a specific height */
+    
+    min-height: 300px;
+    /* Create the parallax scrolling effect */
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30%;
+}
+.socials {
+    justify-content: centre;
+    background-color: white;
+    width: 900px;
+    border: solid 3px white;
+    margin: 15;
+    padding: 2;
+    box-align: center;
+}
+.break {
+    width: 100%;
+    height: 120px;
+    margin: 15;
+    padding: 2;
+}
+.wrapper {
+    width: 400px;
+    height: 400px;
+}
+.Footer {
+    margin: 15;
+    padding: 2;
+    background-color: white;
+    font-family: sans-serif;
+    font: 1.2em "Verdana";
+}

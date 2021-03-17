@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="TemplateMo">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+    <title>Lava Landing Page HTML Template</title>
+    <!--<link rel="icon" type="image/png" href="https://example.com/favicon.png" /> -->
+    <link rel="icon" type="image/png" sizes="32x32" href="data:image/jpeg;base64,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">
+    <!--
+
+Lava Landing Page
+
+https://templatemo.com/tm-540-lava-landing-page
+
+-->
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+
+    <link rel="stylesheet" href="assets/css/templatemo-lava.css">
+
+    <link rel="stylesheet" href="assets/css/owl-carousel.css">
+
+</head>
+
+<body>
+
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!-- ***** Preloader End ***** -->
+
+
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="index.html" class="logo">
+                            Lava
+                        </a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li class="scroll-to-section"><a href="#welcome" class="menu-item">Home</a></li>
+                            <li class="scroll-to-section"><a href="#about" class="menu-item">About</a></li>
+                            <li class="scroll-to-section"><a href="#testimonials" class="menu-item">Testimonials</a>
+                            </li>
+                            <li class="submenu">
+                                <a href="javascript:;">Drop Down</a>
+                                <ul>
+                                    <li><a href="" class="menu-item">About Us</a></li>
+                                    <li><a href="" class="menu-item">Features</a></li>
+                                    <li><a href="" class="menu-item">FAQ's</a></li>
+                                    <li><a href="" class="menu-item">Blog</a></li>
+                                </ul>
+                            </li>
+                            <li class="scroll-to-section"><a href="#contact-us" class="menu-item">Contact Us</a></li>
+                        </ul>
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+
+    <!-- ***** Welcome Area Start ***** -->
+    <div class="welcome-area" id="welcome">
+
+        <!-- ***** Header Text Start ***** -->
+        <div class="header-text">
+            <div class="container">
+                <div class="row">
+                    <div class="left-text col-lg-6 col-md-12 col-sm-12 col-xs-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                        <h1>Simple App that we <em>CREATE</em></h1>
+                        <p>Lava <a href="#">HTML landing page</a> template is provided by <a href="#">TemplateMo</a>. You can modify and use it for your commercial websites for free of charge. This template is last updated on 29 Oct 2019.</p>
+                        <a href="#about" class="main-button-slider">KNOW US BETTER</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ***** Header Text End ***** -->
+    </div>
+    <!-- ***** Welcome Area End ***** -->
+
+    <!-- ***** Features Big Item Start ***** -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                    <div class="features-item">
+                        <div class="features-icon">
+                            <h2>01</h2>
+                            <img src="assets/images/features-icon-1.png" alt="">
+                            <h4>Trend Analysis</h4>
+                            <p>Curabitur pulvinar vel odio sed sagittis. Nam maximus ex diam, nec consectetur diam.</p>
+                            <a href="#testimonials" class="main-button">
+                                Read More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.4s">
+                    <div class="features-item">
+                        <div class="features-icon">
+                            <h2>02</h2>
+                            <img src="assets/images/features-icon-2.png" alt="">
+                            <h4>Site Optimization</h4>
+                            <p>Curabitur pulvinar vel odio sed sagittis. Nam maximus ex diam, nec consectetur diam.</p>
+                            <a href="#testimonials" class="main-button">
+                                Discover More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
+                    <div class="features-item">
+                        <div class="features-icon">
+                            <h2>03</h2>
+                            <img src="assets/images/features-icon-3.png" alt="">
+                            <h4>Email Design</h4>
+                            <p>Curabitur pulvinar vel odio sed sagittis. Nam maximus ex diam, nec consectetur diam.</p>
+                            <a href="#testimonials" class="main-button">
+                                More Detail
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Features Big Item End ***** -->
+
+    <div class="left-image-decor"></div>
+
+    <!-- ***** Features Big Item Start ***** -->
+    <section class="section" id="promotion">
+        <div class="container">
+            <div class="row">
+                <div class="left-image col-lg-5 col-md-12 col-sm-12 mobile-bottom-fix-big" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                    <img src="assets/images/left-image.png" class="rounded img-fluid d-block mx-auto" alt="App">
+                </div>
+                <div class="right-text offset-lg-1 col-lg-6 col-md-12 col-sm-12 mobile-bottom-fix">
+                    <ul>
+                        <li data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
+                            <img src="assets/images/about-icon-01.png" alt="">
+                            <div class="text">
+                                <h4>Vestibulum pulvinar rhoncus</h4>
+                                <p>Please do not redistribute this template ZIP file for a download purpose. You may <a rel="nofollow" href="https://templatemo.com/contact" target="_parent">contact</a> us for additional licensing of our template or to get
+                                    a PSD file.</p>
+                            </div>
+                        </li>
+                        <li data-scroll-reveal="enter right move 30px over 0.6s after 0.5s">
+                            <img src="assets/images/about-icon-02.png" alt="">
+                            <div class="text">
+                                <h4>Sed blandit quam in velit</h4>
+                                <p>You can <a rel="nofollow" href="https://templatemo.com/tm-540-lava-landing-page">download Lava
+                                        Template</a> from our website. Duis viverra, ipsum et scelerisque placerat, orci magna consequat ligula.</p>
+                            </div>
+                        </li>
+                        <li data-scroll-reveal="enter right move 30px over 0.6s after 0.6s">
+                            <img src="assets/images/about-icon-03.png" alt="">
+                            <div class="text">
+                                <h4>Aenean faucibus venenatis</h4>
+                                <p>Phasellus in imperdiet felis, eget vestibulum nulla. Aliquam nec dui nec augue maximus porta. Curabitur tristique lacus.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Features Big Item End ***** -->
+
+    <div class="right-image-decor"></div>
+
+    <!-- ***** Testimonials Starts ***** -->
+    <section class="section" id="testimonials">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="center-heading">
+                        <h2>What They Think <em>About Us</em></h2>
+                        <p>Suspendisse vitae laoreet mauris. Fusce a nisi dapibus, euismod purus non, convallis odio. Donec vitae magna ornare, pellentesque ex vitae, aliquet urna.</p>
+                    </div>
+                </div>
+                <div class="col-lg-10 col-md-12 col-sm-12 mobile-bottom-fix-big" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item service-item">
+                            <div class="author">
+                                <i><img src="assets/images/testimonial-author-1.png" alt="Author One"></i>
+                            </div>
+                            <div class="testimonial-content">
+                                <ul class="stars">
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                                <h4>Jonathan Smart</h4>
+                                <p>“Nullam hendrerit, elit a semper pharetra, ipsum nibh tristique tortor, in tempus urna elit in mauris.”</p>
+                                <span>Besta CTO</span>
+                            </div>
+                        </div>
+                        <div class="item service-item">
+                            <div class="author">
+                                <i><img src="assets/images/testimonial-author-1.png" alt="Second Author"></i>
+                            </div>
+                            <div class="testimonial-content">
+                                <ul class="stars">
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                                <h4>Martino Tino</h4>
+                                <p>“Morbi non mi luctus felis molestie scelerisque. In ac libero viverra, placerat est interdum, rhoncus leo.”</p>
+                                <span>Web Analyst</span>
+                            </div>
+                        </div>
+                        <div class="item service-item">
+                            <div class="author">
+                                <i><img src="assets/images/testimonial-author-1.png" alt="Author Third"></i>
+                            </div>
+                            <div class="testimonial-content">
+                                <ul class="stars">
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                                <h4>George Tasa</h4>
+                                <p>“Fusce rutrum in dolor sit amet lobortis. Ut at vehicula justo. Donec quam dolor, congue a fringilla sed, maximus et urna.”</p>
+                                <span>System Admin</span>
+                            </div>
+                        </div>
+                        <div class="item service-item">
+                            <div class="author">
+                                <i><img src="assets/images/testimonial-author-1.png" alt="Fourth Author"></i>
+                            </div>
+                            <div class="testimonial-content">
+                                <ul class="stars">
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                                <h4>Sir James</h4>
+                                <p>"Fusce rutrum in dolor sit amet lobortis. Ut at vehicula justo. Donec quam dolor, congue a fringilla sed, maximus et urna."</p>
+                                <span>New Villager</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Testimonials Ends ***** -->
+
+
+    <!-- ***** Footer Start ***** -->
+    <footer id="contact-us">
+        <div class="container">
+            <div class="footer-content">
+                <div class="row">
+                    <!-- ***** Contact Form Start ***** -->
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="contact-form">
+                            <form id="contact" action="" method="post">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-12">
+                                        <fieldset>
+                                            <input name="name" type="text" id="name" placeholder="Full Name" required="" style="background-color: rgba(250,250,250,0.3);">
+                                        </fieldset>
+                                    </div>
+                                    <div class="col-md-6 col-sm-12">
+                                        <fieldset>
+                                            <input name="email" type="text" id="email" placeholder="E-Mail Address" required="" style="background-color: rgba(250,250,250,0.3);">
+                                        </fieldset>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <fieldset>
+                                            <textarea name="message" rows="6" id="message" placeholder="Your Message" required="" style="background-color: rgba(250,250,250,0.3);"></textarea>
+                                        </fieldset>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <fieldset>
+                                            <button type="submit" id="form-submit" class="main-button">Send Message
+                                                Now</button>
+                                        </fieldset>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- ***** Contact Form End ***** -->
+                    <div class="right-content col-lg-6 col-md-12 col-sm-12">
+                        <h2>More About <em>Lava</em></h2>
+                        <p>Phasellus dapibus urna vel lacus accumsan, iaculis eleifend leo auctor. Duis at finibus odio. Vivamus ut pharetra arcu, in porta metus. Suspendisse blandit pulvinar ligula ut elementum.
+                            <br><br>If you need this contact form to send email to your inbox, you may follow our <a rel="nofollow" href="https://templatemo.com/contact" target="_parent">contact</a> page for more detail.</p>
+                        <ul class="social">
+                            <li><a href="https://fb.com/templatemo"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="sub-footer">
+                        <p>Copyright &copy; 2020 Lava Landing Page | Designed by <a rel="nofollow" href="https://templatemo.com">TemplateMo</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="assets/js/jquery-2.1.0.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Plugins -->
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/imgfix.min.js"></script>
+
+    <!-- Global Init -->
+    <script src="assets/js/custom.js"></script>
+
+</body>
+
+</html>
